@@ -1,29 +1,95 @@
-body { background-color: #FFFFFF;
-      color: #666666;
-	  font-family: Verdana, Arial, sans-serif;
+body {
+  background-color: #3399CC;
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
 }
-header { background-color: #000033;
-         color: #FFFFFF;
-		 font-family: Georgia, serif; 
+
+header {
+  background-color: #000033;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
 }
-h1 { line-height: 200%; }
-nav { font-weight: bold;
-      background-color: #90C7E3; 
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: block;
 }
-h2 { color: #3399CC;
-     font-family: Georgia, serif;
+
+h1 {
+  line-height: 200%;
+  background: url(sunset.jpg) no-repeat top right;
+  padding-left: 2em;
+  height: 72px;
+  margin-bottom: 0;
 }
-dt { color: #000033; 
-   font-weight: bold; 
+
+nav {
+  font-weight: bold;
+  background-color: #90C7E3;
+  padding-left: 2em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
-.resort { color: #000033;
-          font-size: 1.2em;
+
+h2 {
+  color: #3399CC;
+  font-family: Georgia, serif;
 }
-footer { font-size: .70em;
-         font-style: italic;
-		 text-align: center; 
+
+dt {
+  color: #000033;
+  font-weight: bold;
 }
-#wrapper { width: 80%;
-          margin-left: auto;
-		  margin-right: auto;
+
+.resort {
+  color: #000033;
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .70em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+h3 {
+  color: #000033;
+}
+
+#wrapper {
+  background-color: #FFFFFF;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 5px 5px 5px #1e1e1e;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#homehero {
+  height: 300px;
+  background: url(coast.jpg) no-repeat;
+  background-size: 100% 100% no-repeat;
+  padding-bottom: 2em;
+}
+
+#trialhero {
+  height: 300px;
+  background: url(trail.jpg) no-repeat;
+  background-size: 100% 100% no-repeat;
+  padding-bottom: 2em;
+}
+
+#yurthero {
+  height: 300px;
+  background: url(yurt.jpg) no-repeat;
+  background-size: 100% 100% no-repeat;
+  padding-bottom: 2em;
+}
+
+nav a {
+  text-decoration: none;
 }
